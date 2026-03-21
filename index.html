@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zarifa Garayeva | Talent Acquisition Specialist</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <style>
@@ -122,7 +123,10 @@
       background: linear-gradient(135deg, #7b5ea7 0%, #b07de0 100%);
       display: flex; align-items: center; justify-content: center;
       font-size: 64px; font-weight: 900; color: white; letter-spacing: -2px;
-      user-select: none;
+      user-select: none; overflow: hidden;
+    }
+    .profile-circle img {
+      width: 100%; height: 100%; object-fit: cover; border-radius: 50%;
     }
 
     /* floating tags */
@@ -364,6 +368,10 @@
       border: 2px dashed rgba(255,255,255,0.25);
       display: flex; align-items: center; justify-content: center;
       font-size: 26px; font-weight: 900; color: white;
+      overflow: hidden;
+    }
+    .c-photo img {
+      width: 100%; height: 100%; object-fit: cover; border-radius: 50%;
     }
     .c-name { font-size: 28px; font-weight: 900; color: white; margin: 24px 0 6px; }
     .c-email {
@@ -480,7 +488,9 @@
         <div class="orbit-wrap">
           <div class="orbit-ring orbit-ring-2"></div>
           <div class="orbit-ring orbit-ring-1"></div>
-          <div class="profile-circle">ZG</div>
+          <div class="profile-circle">
+            <img src="ZG.jpg" alt="Zarifa Garayeva" onerror="this.style.display='none';this.parentElement.dataset.fb='ZG';" />
+          </div>
           <div class="ftag ftag-1">Talent Acquisition</div>
           <div class="ftag ftag-2">HR Manager</div>
           <div class="ftag ftag-3">Lead Specialist</div>
@@ -863,7 +873,9 @@
       <div>
         <span class="section-pill-dark">Contact Me</span>
         <h2 class="section-title" style="color:white; margin-bottom:32px;">Ways to <span class="fade-word-dark">Connect</span></h2>
-        <div class="c-photo">ZG</div>
+        <div class="c-photo">
+          <img src="ZG.jpg" alt="Zarifa Garayeva" onerror="this.style.display='none';" />
+        </div>
         <div class="c-name">Zarifa Garayeva</div>
         <a href="mailto:z.qarayeva2000@gmail.com" class="c-email">z.qarayeva2000@gmail.com</a>
         <div class="c-loc">📍 Baku, Azerbaijan &nbsp;·&nbsp; +994 51 322 10 96</div>
