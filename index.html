@@ -259,6 +259,12 @@
       border-radius: 999px; padding: 6px 16px;
       font-size: 13px; font-weight: 700;
     }
+    .exp-desc {
+      grid-column: 1 / -1;
+      font-size: 14px; color: #555; line-height: 1.8;
+      padding-top: 20px; border-top: 1px solid #e0e0e0; margin-top: 4px;
+    }
+    .exp-desc ul { padding-left: 20px; display: flex; flex-direction: column; gap: 5px; }
 
     /* ── CAREER TIMELINE ── */
     #career { padding: 100px 0; }
@@ -358,10 +364,10 @@
     /* ── CONTACT ── */
     #contact { padding: 100px 60px; }
     .contact-inner {
-      max-width: 1400px; margin: 0 auto;
-      display: grid; grid-template-columns: 1fr 1.2fr;
-      gap: 80px; align-items: start;
+      max-width: 800px; margin: 0 auto;
+      display: flex; flex-direction: column; align-items: center; text-align: center;
     }
+    .c-tags { justify-content: center; }
     .c-photo {
       width: 76px; height: 76px; border-radius: 50%;
       background: linear-gradient(135deg, #7b5ea7, #b07de0);
@@ -446,8 +452,7 @@
     <div class="nav-logo">Zarifa G.</div>
     <ul class="nav-links">
       <li><a href="#about">About ↓</a></li>
-      <li><a href="#experience">Experience ↓</a></li>
-      <li><a href="#career">Career ↓</a></li>
+      <li><a href="#experience">Work Experience ↓</a></li>
       <li><a href="#education">Education ↓</a></li>
       <li><a href="#skills">Skills ↓</a></li>
     </ul>
@@ -459,7 +464,7 @@
     <div class="hero-inner">
       <div class="hero-left">
         <h1 class="hero-name">Zarifa<br>Garayeva</h1>
-        <p class="hero-tagline">I help companies build high-performing teams through smart recruitment, data-driven hiring strategies, and an exceptional candidate experience.</p>
+        <p class="hero-tagline">HR professional with end-to-end people experience — from sourcing to integration, policy to reporting, manager guidance to stakeholder strategy. A recruiter on paper; a people partner in practice.</p>
         <div class="hero-actions">
           <a href="#contact" class="btn-pill">
             Let's connect
@@ -477,7 +482,7 @@
               <span class="stat-lbl">Quality-of-hire</span>
             </div>
             <div class="stat-item">
-              <span class="stat-num">16d</span>
+              <span class="stat-num">16 days</span>
               <span class="stat-lbl">Avg. time-to-fill</span>
             </div>
           </div>
@@ -569,18 +574,18 @@
         <div class="sb-desc">Quality-of-hire rate</div>
       </div>
       <div style="text-align:center;">
-        <div class="sb-num"><span>16</span>d</div>
+        <div class="sb-num"><span>16</span> days</div>
         <div class="sb-desc">Average time-to-fill</div>
       </div>
     </div>
   </div>
 
-  <!-- ── EXPERIENCE ── -->
+  <!-- ── WORK EXPERIENCE ── -->
   <section id="experience" class="dot-dark">
     <div class="exp-inner">
       <div class="exp-header">
-        <span class="section-pill-dark">Experience</span>
-        <h2 class="exp-title">What I'm <span class="fade-word-dark">Proud of</span></h2>
+        <span class="section-pill-dark">Work Experience</span>
+        <h2 class="exp-title">Where I've <span class="fade-word-dark">Made an Impact</span></h2>
         <p class="exp-sub">Companies I've contributed to and grown with</p>
       </div>
       <div class="exp-cards">
@@ -588,39 +593,48 @@
         <div class="exp-card">
           <div>
             <div class="exp-company">Blue Planet Distribution</div>
-            <div class="exp-role-title">Lead Talent Acquisition Specialist</div>
-            <div class="exp-period">Sep 2025 – Present · Full time · On-site · PASHA Ventures Group</div>
+            <div class="exp-role-title">Lead Talent Acquisition Specialist (Sep 2025 – Present) &nbsp;·&nbsp; Talent Acquisition Specialist (Sep 2024 – Sep 2025)</div>
+            <div class="exp-period">Full time · On-site · PASHA Ventures Group</div>
           </div>
           <div class="exp-logo">BP</div>
           <div class="exp-tags">
             <span class="tp" style="background:var(--blue-muted);color:#111;">Talent Acquisition</span>
             <span class="tp" style="background:var(--lime);color:#111;">Lead</span>
-          </div>
-        </div>
-
-        <div class="exp-card">
-          <div>
-            <div class="exp-company">Blue Planet Distribution</div>
-            <div class="exp-role-title">Talent Acquisition Specialist</div>
-            <div class="exp-period">Sep 2024 – Sep 2025 · Full time · On-site · PASHA Ventures Group</div>
-          </div>
-          <div class="exp-logo">BP</div>
-          <div class="exp-tags">
-            <span class="tp" style="background:var(--blue-muted);color:#111;">Recruitment</span>
             <span class="tp" style="background:#eee;color:#333;border:1px solid #ccc;">HR Reporting</span>
+          </div>
+          <div class="exp-desc">
+            <ul>
+              <li>Managed full-cycle recruitment and onboarding, closing 25+ vacancies monthly with a 95% quality-of-hire rate and a 16-day average time-to-fill.</li>
+              <li>Collaborated with department heads to forecast hiring needs and align talent strategy with business goals.</li>
+              <li>Prepared monthly, quarterly, and annual HR reports for headquarters; analyzed KPIs (time-to-fill, cost-per-hire, turnover) to drive data-informed decisions.</li>
+              <li>Developed dashboards and visual reports to track headcount, hiring progress, and talent pipeline status.</li>
+              <li>Participated in HR budgeting and workforce planning to align staffing with financial goals.</li>
+              <li>Led structured interviews, created job descriptions, and optimized sourcing to enhance candidate quality.</li>
+              <li>Conducted onboarding, probation reviews, and exit interviews; analyzed retention trends for continuous improvement.</li>
+              <li>Reduced hiring costs and improved engagement through strategic sourcing and process improvements.</li>
+            </ul>
           </div>
         </div>
 
         <div class="exp-card">
           <div>
             <div class="exp-company">Noventiq</div>
-            <div class="exp-role-title">Talent Acquisition Specialist (EE&CA) · HR Manager (Baku)</div>
-            <div class="exp-period">March 2024 – June 2024 · Full time · Hybrid · ex. Softline</div>
+            <div class="exp-role-title">Talent Acquisition Specialist (EE&amp;CA) · HR Manager (Baku)</div>
+            <div class="exp-period">March 2024 – June 2024 · Full time · Hybrid · ex. Softline — global provider of IT solutions</div>
           </div>
           <div class="exp-logo">NV</div>
           <div class="exp-tags">
             <span class="tp" style="background:var(--purple);color:white;">IT Recruitment</span>
-            <span class="tp" style="background:#eee;color:#333;border:1px solid #ccc;">EE&CA</span>
+            <span class="tp" style="background:#eee;color:#333;border:1px solid #ccc;">EE&amp;CA</span>
+          </div>
+          <div class="exp-desc">
+            <ul>
+              <li>Full recruitment cycle for candidates at all levels, including senior positions, across the Eastern Europe &amp; Central Asia region using diverse search tools.</li>
+              <li>Actively sourced candidates with diverse IT specialties; analyzed and selected the most effective recruitment channels.</li>
+              <li>Conducted initial interviews, organized interviews with business clients, and managed responses to job postings.</li>
+              <li>Oversaw the full onboarding process and participated in HR projects including employer brand development and market mapping.</li>
+              <li>Maintained HR documentation for the local legal entity (~10 employees) in the Baku office.</li>
+            </ul>
           </div>
         </div>
 
@@ -628,12 +642,22 @@
           <div>
             <div class="exp-company">Simbrella Baki LLC</div>
             <div class="exp-role-title">Human Resources Assistant</div>
-            <div class="exp-period">Sep 2022 – March 2024 · Full time · On-site · Fintech</div>
+            <div class="exp-period">Sep 2022 – March 2024 · Full time · On-site · Fintech Solutions</div>
           </div>
           <div class="exp-logo">SB</div>
           <div class="exp-tags">
             <span class="tp" style="background:var(--blue-muted);color:#111;">HR Operations</span>
             <span class="tp" style="background:var(--lime);color:#111;">Fintech</span>
+          </div>
+          <div class="exp-desc">
+            <ul>
+              <li>Conducted onboardings to familiarize new employees with company policies and culture; coordinated with departments to ensure timely equipment and access provisioning.</li>
+              <li>Actively participated in the recruitment process to support hiring across departments.</li>
+              <li>Managed HR documentation including employment contracts, vacation records, and business trip documentation ensuring compliance with relevant regulations.</li>
+              <li>Coordinated with travel agencies for staff travel arrangements and assisted with visa processing and foreign embassy liaising.</li>
+              <li>Planned and coordinated corporate events and team-building activities to foster employee engagement.</li>
+              <li>Supported the HR Director across a wide range of clerical, technical, and administrative duties.</li>
+            </ul>
           </div>
         </div>
 
@@ -648,124 +672,36 @@
             <span class="tp" style="background:#eee;color:#333;border:1px solid #ccc;">Banking</span>
             <span class="tp" style="background:var(--purple);color:white;">Client Services</span>
           </div>
+          <div class="exp-desc">
+            <ul>
+              <li>Performed bank procedures including money transfers, debt payments, and account management while following protocols to safeguard against fraud and ensure regulatory compliance.</li>
+              <li>Maintained confidentiality and financial data security; verified customer information and facilitated accurate money exchange transactions.</li>
+              <li>Attended to incoming calls promptly, resolved customer inquiries, and provided a welcoming and professional client experience.</li>
+            </ul>
+          </div>
         </div>
 
         <div class="exp-card">
           <div>
             <div class="exp-company">Afshan Studio</div>
             <div class="exp-role-title">Communication Coordinator</div>
-            <div class="exp-period">Apr 2021 – Aug 2021 · Full time · On-site · Architecture & Design</div>
+            <div class="exp-period">Apr 2021 – Aug 2021 · Full time · On-site · Architecture &amp; Design</div>
           </div>
           <div class="exp-logo">AS</div>
           <div class="exp-tags">
             <span class="tp" style="background:var(--lime);color:#111;">Recruitment</span>
             <span class="tp" style="background:#eee;color:#333;border:1px solid #ccc;">Coordination</span>
           </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ── CAREER TIMELINE ── -->
-  <section id="career" class="dot-gray">
-    <div class="career-inner">
-      <div class="career-header">
-        <span class="section-pill">Career</span>
-        <h2 class="section-title">My <span class="fade-word">Way</span></h2>
-        <p class="section-sub">The journey to becoming who I am today</p>
-      </div>
-
-      <div class="timeline">
-        <div class="tl-row">
-          <div class="tl-left">
-            <div class="tl-card">
-              <div class="tl-logo">BP</div>
-              <div>
-                <div class="tl-role">Lead TA Specialist</div>
-                <div class="tl-co">Blue Planet Distribution</div>
-                <div class="tl-yr">Sep 2025 → Present</div>
-              </div>
-            </div>
-          </div>
-          <div class="tl-dot"></div>
-          <div class="tl-empty"></div>
-        </div>
-
-        <div class="tl-row">
-          <div class="tl-empty"></div>
-          <div class="tl-dot"></div>
-          <div>
-            <div class="tl-card">
-              <div class="tl-logo">BP</div>
-              <div>
-                <div class="tl-role">Talent Acquisition Specialist</div>
-                <div class="tl-co">Blue Planet Distribution</div>
-                <div class="tl-yr">Sep 2024 → Sep 2025</div>
-              </div>
-            </div>
+          <div class="exp-desc">
+            <ul>
+              <li>Recruited top talent including designers and architects to meet the company's staffing needs.</li>
+              <li>Managed client communication to ensure smooth project alignment across ongoing engagements.</li>
+              <li>Oversaw administrative budgets, ensuring efficient resource allocation and cost control.</li>
+              <li>Collaborated with internal teams to streamline processes and achieve organizational goals.</li>
+            </ul>
           </div>
         </div>
 
-        <div class="tl-row">
-          <div class="tl-left">
-            <div class="tl-card">
-              <div class="tl-logo">NV</div>
-              <div>
-                <div class="tl-role">TA Specialist / HR Manager</div>
-                <div class="tl-co">Noventiq (ex. Softline)</div>
-                <div class="tl-yr">Mar 2024 → Jun 2024</div>
-              </div>
-            </div>
-          </div>
-          <div class="tl-dot"></div>
-          <div class="tl-empty"></div>
-        </div>
-
-        <div class="tl-row">
-          <div class="tl-empty"></div>
-          <div class="tl-dot"></div>
-          <div>
-            <div class="tl-card">
-              <div class="tl-logo">SB</div>
-              <div>
-                <div class="tl-role">HR Assistant</div>
-                <div class="tl-co">Simbrella Baki LLC</div>
-                <div class="tl-yr">Sep 2022 → Mar 2024</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="tl-row">
-          <div class="tl-left">
-            <div class="tl-card">
-              <div class="tl-logo">RB</div>
-              <div>
-                <div class="tl-role">Customer Services Rep.</div>
-                <div class="tl-co">Rabitabank OJSC</div>
-                <div class="tl-yr">Feb 2022 → Sep 2022</div>
-              </div>
-            </div>
-          </div>
-          <div class="tl-dot"></div>
-          <div class="tl-empty"></div>
-        </div>
-
-        <div class="tl-row">
-          <div class="tl-empty"></div>
-          <div class="tl-dot"></div>
-          <div>
-            <div class="tl-card">
-              <div class="tl-logo">AS</div>
-              <div>
-                <div class="tl-role">Communication Coordinator</div>
-                <div class="tl-co">Afshan Studio</div>
-                <div class="tl-yr">Apr 2021 → Aug 2021</div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -816,15 +752,15 @@
           <div class="lang-row">
             <div>
               <div class="lang-name">English</div>
-              <div class="lang-lv">Upper-Intermediate · B2</div>
-              <div class="lang-bar"><div class="lang-fill" style="width:75%"></div></div>
+              <div class="lang-lv">Fluent</div>
+              <div class="lang-bar"><div class="lang-fill" style="width:90%"></div></div>
             </div>
           </div>
           <div class="lang-row">
             <div>
               <div class="lang-name">Russian</div>
-              <div class="lang-lv">Upper-Intermediate · B2</div>
-              <div class="lang-bar"><div class="lang-fill" style="width:75%"></div></div>
+              <div class="lang-lv">Fluent</div>
+              <div class="lang-bar"><div class="lang-fill" style="width:90%"></div></div>
             </div>
           </div>
           <div class="lang-row">
@@ -839,8 +775,8 @@
         <div>
           <div class="sg-title">Tools & Tech</div>
           <div class="tag-list">
-            <span class="stag b">HR Analytics</span>
-            <span class="stag b">Dashboards</span>
+            <span class="stag">HR Analytics</span>
+            <span class="stag">Dashboards</span>
             <span class="stag">MS Word</span>
             <span class="stag">Excel Advanced</span>
             <span class="stag">PowerPoint</span>
@@ -854,12 +790,12 @@
         <div>
           <div class="sg-title">Certifications</div>
           <div class="tag-list">
-            <span class="stag p">HR Data Analytics</span>
-            <span class="stag l">Excel Advanced</span>
-            <span class="stag p">Labor Code of AZ</span>
+            <span class="stag">HR Data Analytics</span>
+            <span class="stag">Excel Advanced</span>
+            <span class="stag">Labor Code of AZ</span>
             <span class="stag">Personnel Files Admin · BMS</span>
             <span class="stag">Accounting Principals · IESE</span>
-            <span class="stag l">Financial Accounting F3 · Imza</span>
+            <span class="stag">Financial Accounting F3 · Imza</span>
           </div>
         </div>
 
@@ -870,38 +806,19 @@
   <!-- ── CONTACT ── -->
   <section id="contact" class="dot-dark">
     <div class="contact-inner">
-      <div>
-        <span class="section-pill-dark">Contact Me</span>
-        <h2 class="section-title" style="color:white; margin-bottom:32px;">Ways to <span class="fade-word-dark">Connect</span></h2>
-        <div class="c-photo">
-          <img src="ZG.jpg" alt="Zarifa Garayeva" onerror="this.style.display='none';" />
-        </div>
-        <div class="c-name">Zarifa Garayeva</div>
-        <a href="mailto:z.qarayeva2000@gmail.com" class="c-email">z.qarayeva2000@gmail.com</a>
-        <div class="c-loc">📍 Baku, Azerbaijan &nbsp;·&nbsp; +994 51 322 10 96</div>
-        <div class="c-tags">
-          <span class="tp" style="background:white;color:#111;">Talent Acquisition</span>
-          <span class="tp" style="background:var(--blue-muted);color:#111;">HR Manager</span>
-          <span class="tp" style="background:var(--lime);color:#111;">Lead Specialist</span>
-          <span class="tp" style="background:var(--purple);color:white;">MBA Finance</span>
-        </div>
+      <span class="section-pill-dark">Contact Me</span>
+      <h2 class="section-title" style="color:white; margin-bottom:32px;">Ways to <span class="fade-word-dark">Connect</span></h2>
+      <div class="c-photo">
+        <img src="ZG.jpg" alt="Zarifa Garayeva" onerror="this.style.display='none';" />
       </div>
-
-      <div>
-        <div class="c-form-lbl">Message Me:</div>
-        <form onsubmit="return false;">
-          <input type="text" class="f-input" placeholder="Your Name *" required />
-          <input type="email" class="f-input" placeholder="Your Email *" required />
-          <input type="tel" class="f-input" placeholder="Your Phone" />
-          <input type="text" class="f-input" placeholder="Your message *" required />
-          <button type="submit" class="f-btn">
-            Send message
-            <span class="arrow">
-              <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-            </span>
-          </button>
-          <p class="f-note">Your information will remain private and will not be shared without your permission.</p>
-        </form>
+      <div class="c-name">Zarifa Garayeva</div>
+      <a href="mailto:z.qarayeva2000@gmail.com" class="c-email">z.qarayeva2000@gmail.com</a>
+      <div class="c-loc">📍 Baku, Azerbaijan &nbsp;·&nbsp; +994 51 322 10 96</div>
+      <div class="c-tags">
+        <span class="tp" style="background:white;color:#111;">Talent Acquisition</span>
+        <span class="tp" style="background:var(--blue-muted);color:#111;">HR Manager</span>
+        <span class="tp" style="background:var(--lime);color:#111;">Lead Specialist</span>
+        <span class="tp" style="background:var(--purple);color:white;">MBA Finance</span>
       </div>
     </div>
   </section>
